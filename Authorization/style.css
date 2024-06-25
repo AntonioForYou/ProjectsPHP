@@ -1,0 +1,374 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#ser
+{
+    height: auto;
+    border-color: #BE216A;
+    border-width: 2px;
+}
+
+.search
+{
+    padding: 15px 0 15px 0;
+}
+.head-link
+{
+    color: white;
+}
+
+.head-link:hover
+{
+    color: #FCDCEE;
+}
+
+#btn1
+{
+    background-color: #BE216A;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#btn2
+{
+    background-color: #BE216A;
+    border-radius: 0 5px 5px 0;
+    box-shadow: none;
+}
+
+#kdl
+{
+    margin-right: 10px;
+}
+.drop
+{
+    padding: 30px 0 30px 0;
+    border-width: 2px;
+    border-bottom: deeppink;
+}
+
+#drop{
+    border-width: 2px;
+    border-color: deeppink;
+}
+
+.promo-banner
+{
+    margin: auto;
+    background-color: deeppink;
+    border-radius: 10px;
+    background-image: url("https://kdl.ru/templates/build/images/landings/covid/banner-covid.png");
+    background-size: contain;
+}
+
+.promo-title
+{
+    margin: 15px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.promo-subtitle
+{
+    margin: 0 10px 15px 15px;
+    font-size: 25px;
+}
+
+.promo-advantages
+{
+    height: 100%;
+}
+
+.cln
+{
+    margin: 0;
+    height: calc(100% / 3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.str
+{
+    height: 100%;
+}
+
+.adv
+{
+    padding: 20px 30px;
+    background-color: #FCDCEE;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.element-adv
+{
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+    color: #BE216A;
+}
+
+span
+{
+    font-weight: normal;
+    font-size: 16px;
+    color: #E09ABF;
+}
+
+.head
+{
+    background: white;
+}
+
+.banner
+{
+    margin-top: 20px;
+}
+
+.drop
+{
+    padding: 15px;
+}
+
+.test-item
+{
+}
+
+.test-content
+{
+    background-color: #FCDCEE;
+    border-radius: 10px;
+    color: #BE216A;
+    padding: 10px;
+}
+
+.test-content:hover
+{
+    text-decoration: none;
+    color: #BE216A;
+}
+
+.test-head
+{
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.test-text
+{
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.test
+{
+    padding-top: 50px;
+    text-align: center;
+}
+
+h1
+{
+    padding-bottom: 30px;
+    color: #4A4A4A;
+}
+
+.pcr
+{
+    padding-top: 50px   ;
+}
+
+.pcr-img
+{
+    width: 64px;
+}
+
+.pcr-text
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+.tab-item-content
+{
+    padding: 40px;
+    font-size: 12px ;
+}
+
+li
+{
+    list-style-position: inside;
+    font-size: 14px;
+}
+
+li::marker
+{
+    color: #BE216A;
+}
+
+.info-1
+{
+    border-radius: 10px;
+}
+
+.pans
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.pans:hover
+{
+    background-color: #FCDCEE;
+}
+
+#pan-1
+{
+    background-color: #FCDCEE;
+    border-top-left-radius: 10px;
+    color: #BE216A;
+}
+
+#pan-2
+{
+    background-color: #D7CEFC;
+    border-left: solid white 2px;
+    border-right: solid white 2px;
+}
+
+#pan-3
+{
+    background-color: #D7CEFC;
+    border-top-right-radius: 10px;
+}
+
+.tab-link
+{
+    color: #4A4A4A;
+}
+
+.tab-link:hover
+{
+    text-decoration: none;
+    box-shadow: none;
+    color: #4A4A4A;
+}
+
+.tab-item-2
+{
+    padding: 20px;
+}
+
+.research
+{
+    color: #4A4A4A;
+    font-size: 12px;
+}
+
+.research::before
+{
+    content: '●';
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.study
+{
+    margin-bottom: 10px;
+}
+
+.analysis-desc
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.analysis-row
+{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.analysis-text
+{
+    color: grey;
+    opacity: 80%;
+}
+
+.price-text
+{
+    font-size: 44px;
+    font-weight: bold;
+    color: #4A4A4A;
+    opacity: 90%;
+}
+
+.price-body
+{
+    border-bottom: dashed black 1px;
+}
+
+.A4
+{
+    font-size: 12px;
+}
+
+.analysis-log
+{
+    margin-top: 30px;
+    font-size: 10px;
+    vertical-align: center;
+    background: url("ico__auth.svg") left center no-repeat;
+    padding: 7px 0 7px 29px;
+    color: #BE216A;
+    text-decoration: underline;
+}
+
+.analysis-warning
+{
+    margin-top: 30px;
+    font-size: 10px;
+    vertical-align: center;
+    background: url("ico__warning.svg") left center no-repeat;
+    padding: 7px 0 7px 29px;
+}
+
+#last-warning
+{
+    margin-top: 30px;
+}
+
+.auto
+{
+    color: #BE216A;
+    text-decoration: underline;
+}
+
+.auto:hover
+{
+    color: #BE216A;
+}
+
+.analysis-warning
+{
+    margin-top: 10px;
+    font-size: 10px;
+    color: #4A4A4A;
+}
+
+.but
+{
+    display: block;
+    margin: 26px auto 0 auto;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #40335f;
+    color: white;
+}
